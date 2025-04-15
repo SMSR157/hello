@@ -42,7 +42,7 @@ TEST_F(Test, VegResturant) {
 TEST_F(Test, NonVegResturant) {
     EXPECT_TRUE(nvr->cost() == 69);
     EXPECT_FALSE(nvr->cost() == 420);
-    EXPECT_EQ(nvr->cost(), 70);
+    EXPECT_EQ(nvr->cost(), 69);
     EXPECT_NE(nvr->cost(), 420);
     EXPECT_LT(nvr->cost(), 500);
     EXPECT_LE(nvr->cost(), 69);
